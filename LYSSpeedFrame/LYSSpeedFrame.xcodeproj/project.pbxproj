@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E66B8D320C2D91300854A73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E66B8D220C2D91300854A73 /* AppDelegate.m */; };
+		3E66B8D620C2D91300854A73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E66B8D520C2D91300854A73 /* ViewController.m */; };
+		3E66B8D920C2D91300854A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E66B8D720C2D91300854A73 /* Main.storyboard */; };
+		3E66B8DB20C2D91400854A73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E66B8DA20C2D91400854A73 /* Assets.xcassets */; };
+		3E66B8DE20C2D91400854A73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E66B8DC20C2D91400854A73 /* LaunchScreen.storyboard */; };
+		3E66B8E120C2D91400854A73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E66B8E020C2D91400854A73 /* main.m */; };
+		3E66B8EB20C2D91400854A73 /* LYSSpeedFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E66B8EA20C2D91400854A73 /* LYSSpeedFrameTests.m */; };
+		3E66B8F620C2D91400854A73 /* LYSSpeedFrameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E66B8F520C2D91400854A73 /* LYSSpeedFrameUITests.m */; };
+		3E66B90620C2DA0700854A73 /* UIView+LYSFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E66B90520C2DA0700854A73 /* UIView+LYSFrame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E66B8E720C2D91400854A73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E66B8C620C2D91300854A73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E66B8CD20C2D91300854A73;
+			remoteInfo = LYSSpeedFrame;
+		};
+		3E66B8F220C2D91400854A73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E66B8C620C2D91300854A73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E66B8CD20C2D91300854A73;
+			remoteInfo = LYSSpeedFrame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E66B8CE20C2D91300854A73 /* LYSSpeedFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYSSpeedFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E66B8D120C2D91300854A73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E66B8D220C2D91300854A73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E66B8D420C2D91300854A73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3E66B8D520C2D91300854A73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E66B8D820C2D91300854A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E66B8DA20C2D91400854A73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E66B8DD20C2D91400854A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E66B8DF20C2D91400854A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E66B8E020C2D91400854A73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E66B8E620C2D91400854A73 /* LYSSpeedFrameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYSSpeedFrameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E66B8EA20C2D91400854A73 /* LYSSpeedFrameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSSpeedFrameTests.m; sourceTree = "<group>"; };
+		3E66B8EC20C2D91400854A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E66B8F120C2D91400854A73 /* LYSSpeedFrameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYSSpeedFrameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E66B8F520C2D91400854A73 /* LYSSpeedFrameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSSpeedFrameUITests.m; sourceTree = "<group>"; };
+		3E66B8F720C2D91400854A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E66B90420C2DA0700854A73 /* UIView+LYSFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LYSFrame.h"; sourceTree = "<group>"; };
+		3E66B90520C2DA0700854A73 /* UIView+LYSFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYSFrame.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E66B8CB20C2D91300854A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E66B8E320C2D91400854A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E66B8EE20C2D91400854A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E66B8C520C2D91300854A73 = {
+			isa = PBXGroup;
+			children = (
+				3E66B8D020C2D91300854A73 /* LYSSpeedFrame */,
+				3E66B8E920C2D91400854A73 /* LYSSpeedFrameTests */,
+				3E66B8F420C2D91400854A73 /* LYSSpeedFrameUITests */,
+				3E66B8CF20C2D91300854A73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E66B8CF20C2D91300854A73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E66B8CE20C2D91300854A73 /* LYSSpeedFrame.app */,
+				3E66B8E620C2D91400854A73 /* LYSSpeedFrameTests.xctest */,
+				3E66B8F120C2D91400854A73 /* LYSSpeedFrameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E66B8D020C2D91300854A73 /* LYSSpeedFrame */ = {
+			isa = PBXGroup;
+			children = (
+				3E66B8D120C2D91300854A73 /* AppDelegate.h */,
+				3E66B8D220C2D91300854A73 /* AppDelegate.m */,
+				3E66B90320C2D9CD00854A73 /* LYSSpeedFrame */,
+				3E66B8D420C2D91300854A73 /* ViewController.h */,
+				3E66B8D520C2D91300854A73 /* ViewController.m */,
+				3E66B8D720C2D91300854A73 /* Main.storyboard */,
+				3E66B8DA20C2D91400854A73 /* Assets.xcassets */,
+				3E66B8DC20C2D91400854A73 /* LaunchScreen.storyboard */,
+				3E66B8DF20C2D91400854A73 /* Info.plist */,
+				3E66B8E020C2D91400854A73 /* main.m */,
+			);
+			path = LYSSpeedFrame;
+			sourceTree = "<group>";
+		};
+		3E66B8E920C2D91400854A73 /* LYSSpeedFrameTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E66B8EA20C2D91400854A73 /* LYSSpeedFrameTests.m */,
+				3E66B8EC20C2D91400854A73 /* Info.plist */,
+			);
+			path = LYSSpeedFrameTests;
+			sourceTree = "<group>";
+		};
+		3E66B8F420C2D91400854A73 /* LYSSpeedFrameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E66B8F520C2D91400854A73 /* LYSSpeedFrameUITests.m */,
+				3E66B8F720C2D91400854A73 /* Info.plist */,
+			);
+			path = LYSSpeedFrameUITests;
+			sourceTree = "<group>";
+		};
+		3E66B90320C2D9CD00854A73 /* LYSSpeedFrame */ = {
+			isa = PBXGroup;
+			children = (
+				3E66B90420C2DA0700854A73 /* UIView+LYSFrame.h */,
+				3E66B90520C2DA0700854A73 /* UIView+LYSFrame.m */,
+			);
+			path = LYSSpeedFrame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E66B8CD20C2D91300854A73 /* LYSSpeedFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E66B8FA20C2D91400854A73 /* Build configuration list for PBXNativeTarget "LYSSpeedFrame" */;
+			buildPhases = (
+				3E66B8CA20C2D91300854A73 /* Sources */,
+				3E66B8CB20C2D91300854A73 /* Frameworks */,
+				3E66B8CC20C2D91300854A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYSSpeedFrame;
+			productName = LYSSpeedFrame;
+			productReference = 3E66B8CE20C2D91300854A73 /* LYSSpeedFrame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E66B8E520C2D91400854A73 /* LYSSpeedFrameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E66B8FD20C2D91400854A73 /* Build configuration list for PBXNativeTarget "LYSSpeedFrameTests" */;
+			buildPhases = (
+				3E66B8E220C2D91400854A73 /* Sources */,
+				3E66B8E320C2D91400854A73 /* Frameworks */,
+				3E66B8E420C2D91400854A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E66B8E820C2D91400854A73 /* PBXTargetDependency */,
+			);
+			name = LYSSpeedFrameTests;
+			productName = LYSSpeedFrameTests;
+			productReference = 3E66B8E620C2D91400854A73 /* LYSSpeedFrameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E66B8F020C2D91400854A73 /* LYSSpeedFrameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E66B90020C2D91400854A73 /* Build configuration list for PBXNativeTarget "LYSSpeedFrameUITests" */;
+			buildPhases = (
+				3E66B8ED20C2D91400854A73 /* Sources */,
+				3E66B8EE20C2D91400854A73 /* Frameworks */,
+				3E66B8EF20C2D91400854A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E66B8F320C2D91400854A73 /* PBXTargetDependency */,
+			);
+			name = LYSSpeedFrameUITests;
+			productName = LYSSpeedFrameUITests;
+			productReference = 3E66B8F120C2D91400854A73 /* LYSSpeedFrameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E66B8C620C2D91300854A73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = liyangshuai;
+				TargetAttributes = {
+					3E66B8CD20C2D91300854A73 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					3E66B8E520C2D91400854A73 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 3E66B8CD20C2D91300854A73;
+					};
+					3E66B8F020C2D91400854A73 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 3E66B8CD20C2D91300854A73;
+					};
+				};
+			};
+			buildConfigurationList = 3E66B8C920C2D91300854A73 /* Build configuration list for PBXProject "LYSSpeedFrame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E66B8C520C2D91300854A73;
+			productRefGroup = 3E66B8CF20C2D91300854A73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E66B8CD20C2D91300854A73 /* LYSSpeedFrame */,
+				3E66B8E520C2D91400854A73 /* LYSSpeedFrameTests */,
+				3E66B8F020C2D91400854A73 /* LYSSpeedFrameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E66B8CC20C2D91300854A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E66B8DE20C2D91400854A73 /* LaunchScreen.storyboard in Resources */,
+				3E66B8DB20C2D91400854A73 /* Assets.xcassets in Resources */,
+				3E66B8D920C2D91300854A73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E66B8E420C2D91400854A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E66B8EF20C2D91400854A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E66B8CA20C2D91300854A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E66B8D620C2D91300854A73 /* ViewController.m in Sources */,
+				3E66B8E120C2D91400854A73 /* main.m in Sources */,
+				3E66B8D320C2D91300854A73 /* AppDelegate.m in Sources */,
+				3E66B90620C2DA0700854A73 /* UIView+LYSFrame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E66B8E220C2D91400854A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E66B8EB20C2D91400854A73 /* LYSSpeedFrameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E66B8ED20C2D91400854A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E66B8F620C2D91400854A73 /* LYSSpeedFrameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E66B8E820C2D91400854A73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E66B8CD20C2D91300854A73 /* LYSSpeedFrame */;
+			targetProxy = 3E66B8E720C2D91400854A73 /* PBXContainerItemProxy */;
+		};
+		3E66B8F320C2D91400854A73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E66B8CD20C2D91300854A73 /* LYSSpeedFrame */;
+			targetProxy = 3E66B8F220C2D91400854A73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E66B8D720C2D91300854A73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E66B8D820C2D91300854A73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E66B8DC20C2D91400854A73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E66B8DD20C2D91400854A73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E66B8F820C2D91400854A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E66B8F920C2D91400854A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E66B8FB20C2D91400854A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LYSSpeedFrame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lys.LYSSpeedFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E66B8FC20C2D91400854A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LYSSpeedFrame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lys.LYSSpeedFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E66B8FE20C2D91400854A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYSSpeedFrameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lys.LYSSpeedFrameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYSSpeedFrame.app/LYSSpeedFrame";
+			};
+			name = Debug;
+		};
+		3E66B8FF20C2D91400854A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYSSpeedFrameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lys.LYSSpeedFrameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYSSpeedFrame.app/LYSSpeedFrame";
+			};
+			name = Release;
+		};
+		3E66B90120C2D91400854A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYSSpeedFrameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lys.LYSSpeedFrameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYSSpeedFrame;
+			};
+			name = Debug;
+		};
+		3E66B90220C2D91400854A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYSSpeedFrameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lys.LYSSpeedFrameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYSSpeedFrame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E66B8C920C2D91300854A73 /* Build configuration list for PBXProject "LYSSpeedFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E66B8F820C2D91400854A73 /* Debug */,
+				3E66B8F920C2D91400854A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E66B8FA20C2D91400854A73 /* Build configuration list for PBXNativeTarget "LYSSpeedFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E66B8FB20C2D91400854A73 /* Debug */,
+				3E66B8FC20C2D91400854A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E66B8FD20C2D91400854A73 /* Build configuration list for PBXNativeTarget "LYSSpeedFrameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E66B8FE20C2D91400854A73 /* Debug */,
+				3E66B8FF20C2D91400854A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E66B90020C2D91400854A73 /* Build configuration list for PBXNativeTarget "LYSSpeedFrameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E66B90120C2D91400854A73 /* Debug */,
+				3E66B90220C2D91400854A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E66B8C620C2D91300854A73 /* Project object */;
+}
