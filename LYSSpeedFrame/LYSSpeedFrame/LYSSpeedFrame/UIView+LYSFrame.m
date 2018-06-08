@@ -45,6 +45,13 @@
     frame.size.height = ly_height;
     self.frame = frame;
 }
+- (void)setLy_size:(CGSize)ly_size
+{
+    CGRect frame = self.frame;
+    frame.size.width = ly_size.width;
+    frame.size.height = ly_size.height;
+    self.frame = frame;
+}
 - (void)setLy_center:(CGPoint)ly_center
 {
     CGRect frame = self.frame;
@@ -86,6 +93,10 @@
 - (CGFloat)ly_height
 {
     return self.frame.size.height;
+}
+- (CGSize)ly_size
+{
+    return self.frame.size;
 }
 - (CGPoint)ly_center
 {

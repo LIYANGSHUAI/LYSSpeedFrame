@@ -23,6 +23,8 @@
 @property(nonatomic, assign) CGFloat ly_width;
 /// 高位置
 @property(nonatomic, assign) CGFloat ly_height;
+/// 宽和高
+@property (nonatomic,assign) CGSize ly_size;
 
 /// 中心点
 @property(nonatomic, assign) CGPoint ly_center;
